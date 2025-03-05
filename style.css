@@ -1,0 +1,129 @@
+
+
+body {
+    background: linear-gradient(135deg, #11e061 0%, #9FACE6 100%);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #fcf7f7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #965a5a;
+    border-radius: 15px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #b99146;
+}
+
+form .btn {
+    padding: 10px;
+    background: #b84b94;
+    color: #faf7f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form .btn:hover {
+    background: #6e4ac2;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th {
+    background: #da9555;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #fdfcfc;
+}
+
+.table tr:nth-child(even) {
+    background: #b84a4a;
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: transform 0.1s;
+}
+
+.btn-success {
+    background: #28a745;
+    color: white;
+}
+
+.btn-warning {
+    background: #87bd0a;
+    color: white;
+}
+
+.btn-danger {
+    background: #96313b;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #173b5f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Animasi sederhana untuk loading */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container {
+    animation: fadeIn 0.5s ease;
+}
